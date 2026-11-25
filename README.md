@@ -6,15 +6,17 @@ Projeto interdisciplinar desenvolvido na **Universidade Nove de Julho (UNINOVE)*
 Otimizar a cadeia de suprimentos médico-hospitalar por meio de um **Agente Inteligente de Estoque**, integrando Inteligência Artificial preditiva, Data Warehouse, Business Intelligence (BI), Sistemas Distribuídos e Governança alinhada ao ITIL 4 e às normas da Anvisa (RDC nº 665/2022 e sistema UDI/SIUD).
 
 ## 🏗️ Arquitetura e Tecnologias
-- **Engenharia de Dados & BI:** Modelagem multidimensional *Star Schema*, pipelines ETL e indicadores de acurácia e validade FEFO.
+- **Engenharia de Dados & BI:** Modelagem multidimensional *Star Schema*, pipelines ETL, dashboards em Power BI e indicadores de acurácia e validade FEFO.
 - **Infraestrutura & Banco de Dados:** Ambiente virtualizado em Oracle VM VirtualBox com Ubuntu Server, Apache, MySQL, phpMyAdmin e VPN Tailscale.
 - **Sistemas Distribuídos:** Arquitetura desacoplada por mensageria assíncrona com tratamento de idempotência.
 - **Governança & Conformidade:** Processos ITIL 4, metas de continuidade (RTO/RPO), ISO/IEC 27001, ISO 22301 e LGPD.
 
 ## 📂 Estrutura do Repositório
-- `README.md` — Visão geral da arquitetura, objetivos e equipa do projeto.
+- `README.md` — Visão geral da arquitetura, objetivos e equipe do projeto.
 - `infraestrutura-vm-ubuntu.md` — Passo a passo técnico de provisionamento da VM Ubuntu Server, LAMP, MySQL, phpMyAdmin e VPN Tailscale.
 - `database-dw-healthtech.sql` — Script DDL e DML de criação das tabelas dimensão do Data Warehouse e carga inicial de registros.
+- `dashboard-bi-healthtech.pbix` — Painel analítico desenvolvido no Microsoft Power BI conectado ao modelo dimensional.
+- `planilhas-dw-healthtech/` — Bases de dados em Excel (`.xlsx`) das tabelas dimensão utilizadas na carga e validação do ETL.
 
 ## 👥 Equipe
 - **Ellen** — Scrum Master e Líder da Equipe
